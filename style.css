@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    background-color: rgb(29, 26, 26);
+}
+
+.logo__img{
+    height: 80px;
+    width: 100px;
+}
+
+.title__index{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+
+}
+
+h1 {
+    color: rgb(158, 90, 221);
+    padding: 20px;
+}
+
+
+.car1{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item{
+    height: 456px;
+
+}
+
+
+.nav-link{
+    color: rgb(121, 53, 185);
+}
+
+.title2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+}
+
+h2{
+    padding: 20px;
+    color: rgb(158, 90, 221);
+}
+.ar__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.ar_cards2{
+    display: flex;
+    flex-direction: column;
+
+}
+.jl{
+    height: 286px;
+    width: 286px;
+}
+
+.card__1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.logo__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.logof{
+    height: 25px;
+    width: 25px;
+}
+
+.footer p{
+    color: rebeccapurple;
+}
