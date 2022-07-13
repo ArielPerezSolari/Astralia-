@@ -1,0 +1,29 @@
+@import '../base/variables';
+@import '../base/colors';
+@import '../base/extends';
+@import '../base/maps';
+
+
+.title__index{
+    display: flex;
+    justify-content: center;
+    background: $bg-gradientprimary;
+    background: $bg-gradientsecond;
+    border: map-get($border-violet , colorv );
+    border-radius: map-get($border-violet , radius);
+    h1{
+    @extend %titles;
+    }
+}
+
+.title2{
+    display: flex;
+    justify-content: center;
+    background: $bg-gradientprimary;
+    background: $bg-gradientsecond;
+    border: $borderviolet;
+    border-radius: map-get($border-violet , radius);
+    h2{
+    @extend %titles;
+    }
+}

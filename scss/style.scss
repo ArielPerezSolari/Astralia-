@@ -1,0 +1,31 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/maps';
+@import 'base/colors';
+@import 'base/extends';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/slider';
+@import 'components/titles';
+@import 'components/cards';
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    @extend %body__animation;
+}
+
+@keyframes anim{
+    0% {background-color: rgb(10, 10, 10);}
+    20% {background-color: rgb(17, 17, 16);}
+    50% {background-color: rgb(29, 29, 28);}
+    80% {background-color: rgb(17, 17, 16);}
+    100% {background-color: rgb(0, 0, 0);}
+}
+
+

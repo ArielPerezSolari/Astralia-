@@ -1,7 +1,6 @@
 {
   "name": "desafio-bootstrap",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,12 @@
   "bugs": {
     "url": "https://github.com/ArielPerezSolari/bootstrap/issues"
   },
-  "homepage": "https://github.com/ArielPerezSolari/bootstrap#readme"
+  "homepage": "https://github.com/ArielPerezSolari/bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {},
+  "description": ""
 }

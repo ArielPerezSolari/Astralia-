@@ -1,0 +1,23 @@
+
+@import '../base/mixins';
+@import '../base/variables';
+
+header{
+    nav {
+        background-color: $bg-black;
+        border: $borderviolet;
+            img{
+                height: 80px;
+                width: 100px;
+            }
+            .nav-link{
+                color: rgb(121, 53, 185);
+                @include links(2);
+
+                &:hover{
+                    color: bisque;
+                    scale: 1,5;
+                }
+            }
+    }
+}

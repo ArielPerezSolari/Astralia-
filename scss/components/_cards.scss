@@ -1,0 +1,18 @@
+@import '../base/variables';
+@import '../base/maps';
+@import '../base/extends';
+
+
+
+.ar__cards{
+    @extend %flexcards;
+    padding-top: 10px;
+    .card{
+        background-color: $bg-black;
+        margin: 30px;
+    }
+    img{
+        @extend %card__img__size;
+        padding: 20px;
+    }
+}
